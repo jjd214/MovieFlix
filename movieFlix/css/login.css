@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 300px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field input {
+    padding-right: 30px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("eye-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a25919;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add this CSS rule */
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  

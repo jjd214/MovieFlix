@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+section{
+    background-color: rgb(25, 25, 25);
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+.navbar {
+    background-color: rgb(32, 32, 32);
+}
+.smaller-search {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.navbar {
+    margin-bottom: 0; /* Remove the margin at the bottom */
+}
+.alb {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+}
+.alb img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.alb p {
+    color: white;
+}

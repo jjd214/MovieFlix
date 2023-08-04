@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 91.30vh;
+    background-color: rgb(25, 25, 25);
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+  
+.navbar {
+    background-color: rgb(32, 32, 32);
+}
+
+.left-container {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.nav-item {
+    color: rgb(150, 150, 150);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    height: 450px;
+}
+.right-container .container {
+    color: white;
+}
+.right-container .container .space {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.right-container .container .space1 {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 470px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #000000;
+}
+.right-container .container .gender {
+    margin-right: 50px;
+    color: #fff;
+}
+.right-container .container .fname {
+    margin-right: 25px;
+    color: #fff;
+}
+.right-container .container .lname {
+    color: #fff;
+}
+.right-container .container .age {
+    margin-right: 50px;
+    color: #fff;
+}
+.right-container .container .dob {
+    margin-right: 7px;
+    color: #fff;
+}
+.right-container .container .username {
+    margin-right: 30px;
+    color: #fff;
+}
+.right-container .container .password {
+    margin-right: 35px;
+    color: #fff;
+}
+.right-container .container .mybtn {
+    margin-top: 10px;
+    color: white;
+}
+.right-container .container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right-container .container .mybtn {
+    color: #fff;
+    background-color: rgb(115, 7, 7);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 230px;
+}
+
+.right-container .container .mybtn2 {
+    color: #fff;
+    background-color: rgb(7, 115, 7);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
